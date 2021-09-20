@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E059383-E0C1-4C7E-9789-ACB3B980DFE0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47D34B71-304D-4319-9886-13F259532095"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SRPSwiftClient/SRPHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "SRPHelper"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "47D34B71-304D-4319-9886-13F259532095 - a44a6052583274f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SRPSwiftClient.SRPHelper.deinit"
+                  moduleName = "SRPSwiftClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alinaalinovna/Documents/SRPSwiftClient/SRPSwiftClient/SRPHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "47D34B71-304D-4319-9886-13F259532095 - 466e2e4a5d49f596"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SRPSwiftClient.SRPHelper.__deallocating_deinit"
+                  moduleName = "SRPSwiftClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alinaalinovna/Documents/SRPSwiftClient/SRPSwiftClient/SRPHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

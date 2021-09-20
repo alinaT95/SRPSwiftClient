@@ -3,16 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2DF1B5C12267B9E5019773 /* Pods_SRPSwiftClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857ACFC6A67F9FFEB31236AF /* Pods_SRPSwiftClient.framework */; };
+		54B2D0584E0843779EB71A43 /* Pods_SRPSwiftClient_SRPSwiftClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64159612B4E1A28EB46A094 /* Pods_SRPSwiftClient_SRPSwiftClientUITests.framework */; };
 		5B90C8EA26F34B870010192B /* SRPSwiftClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C8E926F34B870010192B /* SRPSwiftClientApp.swift */; };
 		5B90C8EC26F34B870010192B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C8EB26F34B870010192B /* ContentView.swift */; };
 		5B90C8EE26F34B890010192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B90C8ED26F34B890010192B /* Assets.xcassets */; };
 		5B90C8F126F34B890010192B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B90C8F026F34B890010192B /* Preview Assets.xcassets */; };
 		5B90C8FC26F34B890010192B /* SRPSwiftClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C8FB26F34B890010192B /* SRPSwiftClientTests.swift */; };
 		5B90C90726F34B890010192B /* SRPSwiftClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C90626F34B890010192B /* SRPSwiftClientUITests.swift */; };
+		5B90C91526F351AE0010192B /* SRPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C91426F351AE0010192B /* SRPHelper.swift */; };
+		5B90C91926F5CDCC0010192B /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C91826F5CDCC0010192B /* TCPClient.swift */; };
+		5B90C91B26F5CE370010192B /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C91A26F5CE370010192B /* Socket.swift */; };
+		5B90C91D26F5CE780010192B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C91C26F5CE780010192B /* Result.swift */; };
+		5B90C92126F5CF050010192B /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92026F5CF050010192B /* ytcpsocket.c */; };
+		5B90C92326F5CFCF0010192B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92226F5CFCF0010192B /* String.swift */; };
+		5B90C92526F5D0D00010192B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92426F5D0D00010192B /* Data.swift */; };
+		5B90C92726F5D10E0010192B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92626F5D10E0010192B /* Array.swift */; };
+		5B90C92926F5D1640010192B /* ByteArrayAndHexHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92826F5D1640010192B /* ByteArrayAndHexHelper.swift */; };
+		5B90C92B26F5D6F30010192B /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90C92A26F5D6F30010192B /* JSONHelper.swift */; };
+		5BB4DDAD26F85548003AC62D /* AuthenticationFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4DDAC26F85548003AC62D /* AuthenticationFailure.swift */; };
+		5BB4DDAF26F85589003AC62D /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4DDAE26F85589003AC62D /* Data+Extensions.swift */; };
+		5BB4DDB126F855B7003AC62D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4DDB026F855B7003AC62D /* Group.swift */; };
+		5BB4DDB326F85651003AC62D /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4DDB226F85651003AC62D /* SRP.swift */; };
+		5BB4DDB526F856B8003AC62D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4DDB426F856B8003AC62D /* Client.swift */; };
+		9DEE16BF5F4D41F35C656ADC /* Pods_SRPSwiftClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1CA42DC4C1A5B67DEAAEF3 /* Pods_SRPSwiftClientTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032F427B7895AD402112CB94 /* Pods-SRPSwiftClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClientTests.debug.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClientTests/Pods-SRPSwiftClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		384F67B0A17520C6AE15B572 /* Pods-SRPSwiftClient-SRPSwiftClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClient-SRPSwiftClientUITests.debug.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClient-SRPSwiftClientUITests/Pods-SRPSwiftClient-SRPSwiftClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58A7304C84856E71E6388D86 /* Pods-SRPSwiftClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClientTests.release.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClientTests/Pods-SRPSwiftClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B90C8E626F34B870010192B /* SRPSwiftClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPSwiftClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B90C8E926F34B870010192B /* SRPSwiftClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPSwiftClientApp.swift; sourceTree = "<group>"; };
 		5B90C8EB26F34B870010192B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,29 @@
 		5B90C90226F34B890010192B /* SRPSwiftClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRPSwiftClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B90C90626F34B890010192B /* SRPSwiftClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPSwiftClientUITests.swift; sourceTree = "<group>"; };
 		5B90C90826F34B890010192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B90C91426F351AE0010192B /* SRPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPHelper.swift; sourceTree = "<group>"; };
+		5B90C91826F5CDCC0010192B /* TCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		5B90C91A26F5CE370010192B /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		5B90C91C26F5CE780010192B /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5B90C91E26F5CF050010192B /* SRPSwiftClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRPSwiftClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B90C91F26F5CF050010192B /* ytcpsocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ytcpsocket.h; sourceTree = "<group>"; };
+		5B90C92026F5CF050010192B /* ytcpsocket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		5B90C92226F5CFCF0010192B /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5B90C92426F5D0D00010192B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5B90C92626F5D10E0010192B /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		5B90C92826F5D1640010192B /* ByteArrayAndHexHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteArrayAndHexHelper.swift; sourceTree = "<group>"; };
+		5B90C92A26F5D6F30010192B /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		5BB4DDAC26F85548003AC62D /* AuthenticationFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFailure.swift; sourceTree = "<group>"; };
+		5BB4DDAE26F85589003AC62D /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		5BB4DDB026F855B7003AC62D /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		5BB4DDB226F85651003AC62D /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
+		5BB4DDB426F856B8003AC62D /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		63500708056653A2B05F9C8F /* Pods-SRPSwiftClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClient.debug.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClient/Pods-SRPSwiftClient.debug.xcconfig"; sourceTree = "<group>"; };
+		6B4B42FFA9D77CCB4F11EBBE /* Pods-SRPSwiftClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClient.release.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClient/Pods-SRPSwiftClient.release.xcconfig"; sourceTree = "<group>"; };
+		857ACFC6A67F9FFEB31236AF /* Pods_SRPSwiftClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRPSwiftClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1CA42DC4C1A5B67DEAAEF3 /* Pods_SRPSwiftClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRPSwiftClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CD2BE9F99E938F9878BB0B /* Pods-SRPSwiftClient-SRPSwiftClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPSwiftClient-SRPSwiftClientUITests.release.xcconfig"; path = "Target Support Files/Pods-SRPSwiftClient-SRPSwiftClientUITests/Pods-SRPSwiftClient-SRPSwiftClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F64159612B4E1A28EB46A094 /* Pods_SRPSwiftClient_SRPSwiftClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRPSwiftClient_SRPSwiftClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2DF1B5C12267B9E5019773 /* Pods_SRPSwiftClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEE16BF5F4D41F35C656ADC /* Pods_SRPSwiftClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B2D0584E0843779EB71A43 /* Pods_SRPSwiftClient_SRPSwiftClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A4334BFF6CB212818C7CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				857ACFC6A67F9FFEB31236AF /* Pods_SRPSwiftClient.framework */,
+				F64159612B4E1A28EB46A094 /* Pods_SRPSwiftClient_SRPSwiftClientUITests.framework */,
+				AC1CA42DC4C1A5B67DEAAEF3 /* Pods_SRPSwiftClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B90C8DD26F34B870010192B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +136,8 @@
 				5B90C8FA26F34B890010192B /* SRPSwiftClientTests */,
 				5B90C90526F34B890010192B /* SRPSwiftClientUITests */,
 				5B90C8E726F34B870010192B /* Products */,
+				D23CA70A85127AD3F33AA469 /* Pods */,
+				25A4334BFF6CB212818C7CAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +155,27 @@
 			isa = PBXGroup;
 			children = (
 				5B90C8E926F34B870010192B /* SRPSwiftClientApp.swift */,
+				5B90C91426F351AE0010192B /* SRPHelper.swift */,
 				5B90C8EB26F34B870010192B /* ContentView.swift */,
 				5B90C8ED26F34B890010192B /* Assets.xcassets */,
 				5B90C8F226F34B890010192B /* Info.plist */,
 				5B90C8EF26F34B890010192B /* Preview Content */,
+				5B90C91826F5CDCC0010192B /* TCPClient.swift */,
+				5B90C91A26F5CE370010192B /* Socket.swift */,
+				5B90C91C26F5CE780010192B /* Result.swift */,
+				5B90C91F26F5CF050010192B /* ytcpsocket.h */,
+				5B90C92026F5CF050010192B /* ytcpsocket.c */,
+				5B90C91E26F5CF050010192B /* SRPSwiftClient-Bridging-Header.h */,
+				5B90C92226F5CFCF0010192B /* String.swift */,
+				5B90C92426F5D0D00010192B /* Data.swift */,
+				5B90C92626F5D10E0010192B /* Array.swift */,
+				5B90C92826F5D1640010192B /* ByteArrayAndHexHelper.swift */,
+				5B90C92A26F5D6F30010192B /* JSONHelper.swift */,
+				5BB4DDAC26F85548003AC62D /* AuthenticationFailure.swift */,
+				5BB4DDB226F85651003AC62D /* SRP.swift */,
+				5BB4DDAE26F85589003AC62D /* Data+Extensions.swift */,
+				5BB4DDB026F855B7003AC62D /* Group.swift */,
+				5BB4DDB426F856B8003AC62D /* Client.swift */,
 			);
 			path = SRPSwiftClient;
 			sourceTree = "<group>";
@@ -130,6 +206,19 @@
 			path = SRPSwiftClientUITests;
 			sourceTree = "<group>";
 		};
+		D23CA70A85127AD3F33AA469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63500708056653A2B05F9C8F /* Pods-SRPSwiftClient.debug.xcconfig */,
+				6B4B42FFA9D77CCB4F11EBBE /* Pods-SRPSwiftClient.release.xcconfig */,
+				384F67B0A17520C6AE15B572 /* Pods-SRPSwiftClient-SRPSwiftClientUITests.debug.xcconfig */,
+				E0CD2BE9F99E938F9878BB0B /* Pods-SRPSwiftClient-SRPSwiftClientUITests.release.xcconfig */,
+				032F427B7895AD402112CB94 /* Pods-SRPSwiftClientTests.debug.xcconfig */,
+				58A7304C84856E71E6388D86 /* Pods-SRPSwiftClientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B90C90B26F34B890010192B /* Build configuration list for PBXNativeTarget "SRPSwiftClient" */;
 			buildPhases = (
+				5048A537231A8F0380E9E3D9 /* [CP] Check Pods Manifest.lock */,
 				5B90C8E226F34B870010192B /* Sources */,
 				5B90C8E326F34B870010192B /* Frameworks */,
 				5B90C8E426F34B870010192B /* Resources */,
+				8C33938F6F2CD2F94FD16893 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B90C90E26F34B890010192B /* Build configuration list for PBXNativeTarget "SRPSwiftClientTests" */;
 			buildPhases = (
+				0EBE10FA2F9840678E73D9BD /* [CP] Check Pods Manifest.lock */,
 				5B90C8F326F34B890010192B /* Sources */,
 				5B90C8F426F34B890010192B /* Frameworks */,
 				5B90C8F526F34B890010192B /* Resources */,
@@ -172,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B90C91126F34B890010192B /* Build configuration list for PBXNativeTarget "SRPSwiftClientUITests" */;
 			buildPhases = (
+				82BB161AA733E1C511E75E04 /* [CP] Check Pods Manifest.lock */,
 				5B90C8FE26F34B890010192B /* Sources */,
 				5B90C8FF26F34B890010192B /* Frameworks */,
 				5B90C90026F34B890010192B /* Resources */,
+				6984AA0E069AB469CFB63A02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +291,7 @@
 				TargetAttributes = {
 					5B90C8E526F34B870010192B = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					5B90C8F626F34B890010192B = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -254,13 +349,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EBE10FA2F9840678E73D9BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRPSwiftClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5048A537231A8F0380E9E3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRPSwiftClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6984AA0E069AB469CFB63A02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient-SRPSwiftClientUITests/Pods-SRPSwiftClient-SRPSwiftClientUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient-SRPSwiftClientUITests/Pods-SRPSwiftClient-SRPSwiftClientUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient-SRPSwiftClientUITests/Pods-SRPSwiftClient-SRPSwiftClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BB161AA733E1C511E75E04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRPSwiftClient-SRPSwiftClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C33938F6F2CD2F94FD16893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient/Pods-SRPSwiftClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient/Pods-SRPSwiftClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SRPSwiftClient/Pods-SRPSwiftClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B90C8E226F34B870010192B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B90C91D26F5CE780010192B /* Result.swift in Sources */,
+				5BB4DDAF26F85589003AC62D /* Data+Extensions.swift in Sources */,
+				5B90C92726F5D10E0010192B /* Array.swift in Sources */,
+				5BB4DDB126F855B7003AC62D /* Group.swift in Sources */,
+				5B90C92926F5D1640010192B /* ByteArrayAndHexHelper.swift in Sources */,
 				5B90C8EC26F34B870010192B /* ContentView.swift in Sources */,
+				5B90C91926F5CDCC0010192B /* TCPClient.swift in Sources */,
+				5B90C91B26F5CE370010192B /* Socket.swift in Sources */,
+				5B90C91526F351AE0010192B /* SRPHelper.swift in Sources */,
+				5BB4DDB326F85651003AC62D /* SRP.swift in Sources */,
 				5B90C8EA26F34B870010192B /* SRPSwiftClientApp.swift in Sources */,
+				5BB4DDB526F856B8003AC62D /* Client.swift in Sources */,
+				5B90C92326F5CFCF0010192B /* String.swift in Sources */,
+				5B90C92B26F5D6F30010192B /* JSONHelper.swift in Sources */,
+				5B90C92526F5D0D00010192B /* Data.swift in Sources */,
+				5BB4DDAD26F85548003AC62D /* AuthenticationFailure.swift in Sources */,
+				5B90C92126F5CF050010192B /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +627,11 @@
 		};
 		5B90C90C26F34B890010192B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63500708056653A2B05F9C8F /* Pods-SRPSwiftClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SRPSwiftClient/Preview Content\"";
 				DEVELOPMENT_TEAM = U6536SK5QY;
@@ -429,6 +644,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wheely.SRPSwiftClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SRPSwiftClient/SRPSwiftClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,9 +653,11 @@
 		};
 		5B90C90D26F34B890010192B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4B42FFA9D77CCB4F11EBBE /* Pods-SRPSwiftClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SRPSwiftClient/Preview Content\"";
 				DEVELOPMENT_TEAM = U6536SK5QY;
@@ -451,6 +670,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wheely.SRPSwiftClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SRPSwiftClient/SRPSwiftClient-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +678,7 @@
 		};
 		5B90C90F26F34B890010192B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032F427B7895AD402112CB94 /* Pods-SRPSwiftClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +701,7 @@
 		};
 		5B90C91026F34B890010192B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A7304C84856E71E6388D86 /* Pods-SRPSwiftClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +724,7 @@
 		};
 		5B90C91226F34B890010192B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384F67B0A17520C6AE15B572 /* Pods-SRPSwiftClient-SRPSwiftClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +745,7 @@
 		};
 		5B90C91326F34B890010192B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CD2BE9F99E938F9878BB0B /* Pods-SRPSwiftClient-SRPSwiftClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

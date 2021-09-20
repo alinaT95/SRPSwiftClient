@@ -1,0 +1,6 @@
+framework module Pods_SRPSwiftClientTests {
+  umbrella header "Pods-SRPSwiftClientTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
